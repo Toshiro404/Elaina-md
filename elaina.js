@@ -1745,26 +1745,40 @@ case 'block': {
              break           
 case 'bcgc': case 'bcgroup': {
                 if (!isCreator) throw mess.owner
-                if (!text) throw `Where is the text?\n\nExample : ${prefix + command} hello guys, am back`
+                if (!text) throw `Text mana?\n\nExample : ${prefix + command} fatih-san`
                 let getGroups = await elaina.groupFetchAllParticipating()
                 let groups = Object.entries(getGroups).slice(0).map(entry => entry[1])
                 let anu = groups.map(v => v.id)
-                reply(`Send Broadcast To ${anu.length} Group Chat, Finish Time ${anu.length * 1.5} second`)
+                m.reply(`Mengirim Broadcast Ke ${anu.length} Group Chat, Waktu Selesai ${anu.length * 1.5} detik`)
                 for (let i of anu) {
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Profile',
-                                    url: 'https://s.id/Skylarkaf'
-                                }                            
+                                    displayText: 'Source Code',
+                                    url: 'https://github.com/DikaArdnt/Hisoka-Morou'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: 'Status',
+                                    id: '.test'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: 'Contact',
+                                    id: '.owner'
+                                }  
+                            }, {
+                                quickReplyButton: {
+                                    displayText: 'Script',
+                                    id: '.sc'
+                                }
                             }]
-                      fatihgans = fs.readFileSync('./Media/broadcast.jpg')
-                      let txt = `「 elaina Broadcast 」\n\n${text}`
-                      elaina.send5ButImg(i, txt, elaina.user.name, fatihgans, btn)
+                      let txt = `「 Broadcast Bot 」\n\n${text}`
+                      elaina.send5ButImg(i, txt, elaina.user.name, global.thumb, btn)
                     }
-                reply(`Successful Sending Broadcast To ${anu.length} Group(s)`)
+                m.reply(`Sukses Mengirim Broadcast Ke ${anu.length} Group`)
             }
-            break           
+            break  
                                                  
 //═══════════[ Convert Menu ]═══════════\\
 
