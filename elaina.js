@@ -2,8 +2,9 @@
    * Create By Dika Ardnt.
    * Recode By SkylarKaf
    * Follow https://github.com/DikaArdnt & https://github.com/SkylarKaf      
-     #Note! 
-  Script ini masih dalam pengembangan jika ga mau eror fork aja base original
+   #Note! 
+  * Sc ini Bersifat OpenSource Publick
+ * Script ini juga masih dalam pengembangan jika ga mau eror fork aja base original
 */
 
 require('./config')
