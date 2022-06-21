@@ -15,25 +15,25 @@ global.APIKeys = {
 }
 
 // Other
-global.owner = ['6282331660134','6282331660134','6282331660134','6282331660134']
-global.premium = ['6282331660134']
+global.owner = ['919609900020','918373017400']
+global.premium = ['919609900020']
 global.botnma = 'Elaina - MD'
-global.ownernma = 'Skylarkaf'
-global.packname = '' 
-global.author = '⫹⫺ Created By : Elaina - MD\n⫹⫺ Owner : SkylarKaf\n⫹⫺ Instagram : @skylarkaf_\n⫹⫺ Website : https://s.id/Skylarkaf'
+global.ownernma = 'Toshiro-sama'
+global.packname = 'elaina' 
+global.author = 'by Toshiro-sama'
 global.sessionName = 'Web'
-global.prefa = ['!','.','#']
+global.prefa = ['+']
 global.sp = '>'
 global.mess = {
     success: 'Success',
-    admin: 'Fitur Ini Hanya Bisa Di Akses Oleh Admin Grub!',
-    botAdmin: 'Bot Harus Menjadi Admin Terlebih Dahulu!',
-    owner: 'Fitur Khusus Owner Bot',
-    group: 'Fitur Hanya Bisa Digunakan Di Group!',
-    private: 'Fitur Hanya Bisa Digunakan Private Chat!',
-    bot: 'Fitur Khusus Bot',
-    wait: 'Memproses Data....',
-    endLimit: 'Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12',
+    admin: 'This feature can only be accessed by group admins!',
+    botAdmin: 'Bot Must Be Admin First!',
+    owner: 'Owner Bot's Special Features',
+    group: 'This Features Can Only Be Used In Groups!',
+    private: 'This Features Can Only Be Used Private Chat!',
+    bot: 'Bot Special Features',
+    wait: 'Processing Data....',
+    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every Hour',
 }
 global.limitawal = {
     premium: "Infinity",
